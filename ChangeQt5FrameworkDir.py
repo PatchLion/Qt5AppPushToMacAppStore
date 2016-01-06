@@ -30,7 +30,7 @@ import fnmatch
 import shutil
 import sys
 import subprocess
-import AddBundleInfo
+import AddBundleInfo #PatchLion添加
 
 parser = argparse.ArgumentParser(
     description = "Fixup Qt5 frameworks after macdeployqt"
@@ -87,7 +87,7 @@ for root,frameworks,files in os.walk(frameworksPath):
             # mkdir('Versions/5/Resources')
             copy(os.path.join(qt5Path,'lib',framework,'Contents','Info.plist'),
                'Versions/5/Resources/Info.plist')
-            AddBundleInfo.updateplist('Versions/5/Resources/Info.plist', module)
+            AddBundleInfo.updateplist('Versions/5/Resources/Info.plist', module)#PatchLion添加
             symlink('Versions/Current/Resources','Resources')
 
 def call_program(*args):
