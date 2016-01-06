@@ -10,7 +10,7 @@
 * [2、调整Qt5打包后Framework中的目录结构脚本](https://gist.github.com/kingcheez/6154462d7734e0c0f3a4)
 * [3、info.plist文件键值说明](http://my.oschina.net/u/727843/blog/392824)
 * [4、Framework Bundles苹果官方说明](https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/BPFrameworks/Concepts/FrameworkAnatomy.html)
-* [5、plist文件读取python库(biplist)](https://github.com/wooster/biplist)
+* [5、python库:plist文件读取(biplist)](https://github.com/wooster/biplist)
 
 ---
 ###流程：
