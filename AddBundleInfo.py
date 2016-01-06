@@ -4,7 +4,7 @@ import os
 from biplist import *
 
 
-addList = {'CFBundleIdentifier': 'com.everimaging.fotormac',
+addList = {'CFBundleIdentifier': 'com.mycomp.myapp',
             'NSHumanReadableCopyright': ''}
 
 def updateplist(filepath, moudlename):
