@@ -28,8 +28,12 @@
 3. 生成归档（Archive）
 	* Xcode菜单->product->Archive，等待Xcode自动将工程生成归档(Archive)<br/>
 	![Alt text](https://github.com/PatchLion/Qt5AppPushToMacAppStore/blob/master/BulidPhases.png)
-	* 生成完成后弹出Origanier窗体，会看到自动归档的信息
+	* 生成完成后弹出Origanier窗体，会看到自动归档的信息<br/>
+	![Alt text](https://github.com/PatchLion/Qt5AppPushToMacAppStore/blob/master/Organizer.png)
 	* 点击Validate可验证归档是否符合上传要求
 	* 如果符合上传要求则可以点击Submit开始上传
+	
+4. 过程中遇到的其他问题
+	* 提示icns文件找不到512x512、512x512@2的图标，重新生成icns文件后通过
 
 ---
